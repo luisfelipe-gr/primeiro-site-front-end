@@ -1,4 +1,6 @@
 @import "./header.css";
+@import "./buttons.css";
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +8,18 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    text-decoration: none;
+}
+
+.container{
+    width: 1024px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
 }
 
 body{
@@ -24,10 +38,7 @@ main section{
 
     
 
-article{
-    padding: 45px;
-    width: 600px;
-}
+
 h1{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 50px;
@@ -40,12 +51,7 @@ h2{
     font-weight: 500;
 }
 
-button{
-    width: 120px;
-    height: 30px;
-    background: orangered;
-    border-radius: 20px;
-}
+
 
 a{
     text-decoration: none;
