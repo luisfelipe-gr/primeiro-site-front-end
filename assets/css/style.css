@@ -1,5 +1,12 @@
-
-
+@import "./header.css";
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 
 body{
     background: url(/Teste-site/assets/bolha-background.png)repeat-y;
@@ -7,28 +14,10 @@ body{
     background-size:35% ;
     
     }
-header{
-    padding: 10px 10px 10px 45px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 22px;
-    
-}
-
-ul{
-    display: flex;
-}
-
-li{
-    list-style: none;
-    margin: 0 10px;
-    color: rgb(82, 82, 208);
-}
 
 
     
-.main{
+main section{
     display: flex;
     justify-content: space-between;
 }
@@ -63,12 +52,8 @@ a{
     color: white;
     
 }
-tfoot{
-    height: 40px;
-    padding: 45px;
-}
-img{
-    margin: 10px;
-}
+
+
+
 
 
