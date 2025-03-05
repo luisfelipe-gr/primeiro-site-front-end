@@ -1,6 +1,10 @@
 @import "./header.css";
 @import "./buttons.css";
 @import "./main.css";
+@import "./footer.css";
+@import "./responsive.css";
+
+
 
 
 *{
@@ -11,6 +15,7 @@
     font-weight:300;
     vertical-align: baseline;
     text-decoration: none;
+    list-style: none;
 }
 
 .container{
@@ -25,11 +30,10 @@
 }
 
 body{
-    background: url(/Teste-site/assets/bolha-background.png)repeat-y;
-    background-position: left ;
-    background-size:35% ;
-    
-    }
+    background-image: url('../bolha-background.png');
+    background-repeat: no-repeat;
+    background-position: left;
+ }
 
 
 
