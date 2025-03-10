@@ -1,3 +1,7 @@
+main{
+    width: 1024px;
+    display: flex;
+}
 .sobre-web-design{
     display: flex;
     align-items: center;
@@ -22,8 +26,9 @@
 }
 .sobre-web-design article h2,
 .sobre-web-design article p{
-    color: rgb(82, 82, 208);
+    color:#3399cc;
 }
+
 
 .sobre-web-design figcaption{
     width: 700px;
