@@ -1,0 +1,39 @@
+main{
+    width: 1024px;
+    display: flex;
+}
+.sobre-web-design{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    article{
+        width: 250px;
+
+        h1{
+            font-size: $font-h1;
+            font-weight: 400;
+            color: $color-segundaria;
+            line-height: 70%;
+        }
+
+        h2{
+            font-size: $font-h2;
+            line-height: 200%;
+        }
+
+        p{
+            margin: 15px
+        }
+
+        h2, p{
+            color:$color-primaria;
+        }
+    }
+
+    figcaption{
+        img{
+        width: 700px;
+            }
+    }
+}
